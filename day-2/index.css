@@ -1,0 +1,43 @@
+body{
+    height: 1dvh;
+    margin: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* justify-content: center; */
+    height: 100vh;
+    background-color: wheat;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: rgb(248, 150, 85);
+    color: white;
+    font-weight: 700;
+    padding-inline: 1em;
+}
+.nav-items{
+    list-style: none;
+    display: flex;
+    gap: 12px;
+
+}
+.image{
+    width: 75px;
+    padding-block: 1em;
+}
+.mainCon{
+    padding: 1em;
+    height: 90%;
+    align-self: flex-start;
+}
+
+.footer{
+    background-color: gray;
+    
+}
